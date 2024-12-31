@@ -543,3 +543,37 @@ p{
         font-size: 1.5rem;
     }
 }
+
+#consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-align: center;
+}
+#consent-banner p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #333;
+}
+#consent-banner button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#accept-consent {
+  background-color: #28a745;
+  color: white;
+}
+#manage-preferences {
+  background-color: #007bff;
+  color: white;
+}
