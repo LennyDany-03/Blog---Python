@@ -252,5 +252,11 @@
       <button id="accept-consent">Accept</button>
       <button id="manage-preferences">Manage Preferences</button>
     </div>
+    <script>
+        document.getElementById('manage-preferences').addEventListener('click', function() {
+          // Show a modal for managing preferences
+          document.getElementById('preferences-modal').style.display = 'block';
+        });
+    </script>
 </body>
 </html>
